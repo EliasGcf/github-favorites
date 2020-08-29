@@ -1,0 +1,12 @@
+{
+  "name": "github-favorites",
+  "displayName": "github-favorites",
+  "expo": {
+    "name": "github-favorites",
+    "slug": "github-favorites",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}

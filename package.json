@@ -8,6 +8,7 @@
   },
   "dependencies": {
     "@expo-google-fonts/roboto": "^0.1.0",
+    "@react-native-community/async-storage": "^1.12.0",
     "@react-native-community/masked-view": "^0.1.10",
     "@react-navigation/native": "^5.7.3",
     "@react-navigation/stack": "^5.9.0",
@@ -26,6 +27,7 @@
     "react-native-screens": "^2.10.1",
     "react-native-splash-screen": "^3.2.0",
     "react-native-unimodules": "~0.10.1",
+    "react-native-webview": "^10.8.3",
     "styled-components": "^5.1.1"
   },
   "devDependencies": {

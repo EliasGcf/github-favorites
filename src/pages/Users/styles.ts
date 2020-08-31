@@ -29,6 +29,11 @@ export const Divisor = styled.View`
   margin: 0 24px 24px 24px;
 `;
 
+export const LoadingContainer = styled.View`
+  flex: 1;
+  justify-content: center;
+`;
+
 export const UserContainer = styled.View`
   align-items: center;
   margin-bottom: 32px;

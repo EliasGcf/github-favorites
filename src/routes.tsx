@@ -5,6 +5,7 @@ import { StatusBar } from 'react-native';
 import { useTheme } from 'styled-components';
 
 import { Users } from './pages/Users';
+import GitHubProfile from './pages/GitHubProfile';
 
 const Stack = createStackNavigator();
 
@@ -20,6 +21,7 @@ export const Routes: React.FC = () => {
           headerTintColor: colors.white,
           headerTitleAlign: 'center',
           headerTitleStyle: { fontFamily: 'Roboto_400Regular' },
+          headerBackTitleVisible: false,
         }}
       >
         <Stack.Screen
@@ -29,6 +31,14 @@ export const Routes: React.FC = () => {
           }}
           name="Users"
           component={Users}
+        />
+        <Stack.Screen
+          options={({ route: { params } }) => ({
+            title: (params as { login: string }).login || '',
+            cardStyle: { backgroundColor: colors.background },
+          })}
+          name="GitHubProfile"
+          component={GitHubProfile}
         />
       </Stack.Navigator>
     </NavigationContainer>

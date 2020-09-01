@@ -22,7 +22,9 @@
   <a href="#-license">License</a>
 </p>
 
-<img src=".github/mockup.png" alt="">
+<p align="center">
+  <img src=".github/mockup.png" alt="Mockup" width="512px">
+</p>
 
 ## 🧑🏻‍💻 About the project
 
